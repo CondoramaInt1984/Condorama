@@ -1,0 +1,58 @@
+
+.navbar {
+  background-color: #555;
+}
+
+  .navbar a {
+    float: right;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto; 
+    color: rgb(245, 238, 238);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px; 
+    text-align: center;
+  }
+
+
+.text_font {
+  font-size: 20px;
+  font-weight: bold;
+  height: 350px;
+  color: black;
+  text-align: justify;
+}
+
+.Bienvenue-adjust {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+
+.PadMenu {
+  Padding-top: 125px;
+  height: 500px;
+}
+
+.title {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+/* For the map in contact */
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
